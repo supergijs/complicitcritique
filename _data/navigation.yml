@@ -1,0 +1,21 @@
+section:
+  - page: Writing
+    url: /writing
+    subsection:
+      - page: Complicit Critique
+        url: /writing/complicitcritique
+      - page: Between hero bait and fox traps
+        url: /writing/foxtraps
+      - page: Designer Guilt
+        url: /writing/designerguilt
+  - page: Syllabus
+    url: /exercises
+    subsection:
+      - page: Ego Design
+        url: /exercises/egodesign
+      - page: Ego Trends
+        url: /exercises/egotrends
+      - page: Post Critique
+        url: /exercises/postcritique
+  - page: About
+    url: /about

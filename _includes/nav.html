@@ -1,0 +1,12 @@
+<nav>
+    {% for a in site.data.navigation.section %}
+    <a href="{{ a.url }}" {% if page.url == a.url %}class="current"{% endif %}>{{ a.page }}</a>
+    <ul>
+        {% for b in a.subsection %}
+        <li><a href="{{ b.url }}" {% if page.url == b.url %}class="current"{% endif %}>{{ b.page}}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+    <!-- <a href="/about.html">About</a>
+    <a href="/writing/complicitcritique.html">CC</a> -->
+</nav>
