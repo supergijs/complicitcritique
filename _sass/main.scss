@@ -1,3 +1,171 @@
+// mobile
+
+// desktop
+@media only screen and (min-width: 600px) {
+    
+}
+
+body {
+    background: lightgrey;
+    font-family: Plantin, Times;
+  }
+  
+@font-face {
+          font-family: 'Super';
+          src: url('/assets/fonts/super.woff2') format('woff2'),
+                   url('/assets/fonts/super.woff') format('woff');
+          font-weight: bold;
+          font-style: normal;
+  }
+@font-face {
+          font-family: 'Plantin';
+          src: url('/assets/fonts/plantin.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+  }
+@font-face {
+      font-display: block;
+      font-family: "arizona";
+      src: url("/assets/fonts/arizona.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 100 900;
+      unicode-range: U+0000-DFFF, U+F900-FFFD;
+  }
+
+// NAV
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin:0;
+    // position: relative;
+}
+nav li {
+    // float:left;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav li:hover{
+    // background-color: lightblue;
+    // border: 1px dotted white;
+}
+
+li > a{
+    display: inline-block;
+    text-align: center;
+    padding: 0 1em;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+nav div {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+
+nav div a{
+    font-size: 1.5em;
+    display: block;
+    padding: 0.2em 1em;
+    height: 20px;
+    text-align: left;
+}
+
+nav li:hover > div{
+    display: block;
+    background-color: lightgrey;
+}
+
 .current{
     color:green;
 }
+
+// ARTICLE
+article {
+    /* width: 80vw; */
+    max-width: 600px;
+    margin: auto;
+  }
+  
+/* TITLE */
+h1 {
+font-family: Plantin, Arial-black;
+font-weight: 100;
+font-size: 6em;
+padding: 30px 0;
+text-align: center;
+line-height: 0.9;
+letter-spacing: -0.08em;
+}
+
+/* SUBTITLE */
+h2{
+
+}
+
+// IMAGE
+img.head {
+    width: 80vw;
+    max-width: 500px;
+    border: 4px solid black;
+    display: block;
+    margin: auto;
+    }
+
+/* ? */
+h3{
+
+}
+/* INTRO */
+h4{
+    font-weight: normal;
+    font-size: 1.6em;
+    line-height: 1.3;
+    /* text-align: justify; */
+    }
+
+//   BODY
+p{
+    font-size: 1.4em;
+    line-height: 1.5;
+    /* text-align: justify; */
+    }
+/* METADATA */
+h5{
+    text-align: right;
+    font-family: Monaco, monospace;
+    font-weight: normal;
+    font-size: 0.8em;
+    opacity: 0.5;
+    }
+
+/* CAPTIONS */
+h6{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    }
+
+/* HEADER */
+header{
+    display: block;
+    width: 600px;
+    margin: auto;
+    }
+header h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 0.8;
+    }
+
+
+
+
+
+  

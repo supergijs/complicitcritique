@@ -1,4 +1,6 @@
 section:
+  - page: Home
+    url: /
   - page: Writing
     url: /writing
     subsection:

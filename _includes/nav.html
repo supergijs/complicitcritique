@@ -1,12 +1,16 @@
 <nav>
-    {% for a in site.data.navigation.section %}
-    <a href="{{ a.url }}" {% if page.url == a.url %}class="current"{% endif %}>{{ a.page }}</a>
     <ul>
+    {% for a in site.data.navigation.section %}
+    <li>
+    <a href="{{ a.url }}" {% if page.url == a.url %}class="current"{% endif %}>/{{ a.page }}</a>
+    <div>
         {% for b in a.subsection %}
-        <li><a href="{{ b.url }}" {% if page.url == b.url %}class="current"{% endif %}>{{ b.page}}</a></li>
+        <a href="{{ b.url }}" {% if page.url == b.url %}class="current"{% endif %}>/{{ b.page }}</a>
         {% endfor %}
-    </ul>
+    </div>
+    </li>
     {% endfor %}
-    <!-- <a href="/about.html">About</a>
-    <a href="/writing/complicitcritique.html">CC</a> -->
+    </ul>
 </nav>
+
+<hr>
