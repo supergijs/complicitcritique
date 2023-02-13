@@ -1,6 +1,15 @@
 section:
   - page: Home
     url: /
+  - page: Exercises
+    url: /exercises
+    subsection:
+      - page: Ego Design
+        url: /exercises/egodesign
+      - page: Ego Trends
+        url: /exercises/egotrends
+      - page: Post Critique
+        url: /exercises/postcritique
   - page: Writing
     url: /writing
     subsection:
@@ -10,14 +19,5 @@ section:
         url: /writing/foxtraps
       - page: Designer Guilt
         url: /writing/designerguilt
-  - page: Syllabus
-    url: /exercises
-    subsection:
-      - page: Ego Design
-        url: /exercises/egodesign
-      - page: Ego Trends
-        url: /exercises/egotrends
-      - page: Post Critique
-        url: /exercises/postcritique
-  - page: About
-    url: /about
+  - page: Works
+    url: /works

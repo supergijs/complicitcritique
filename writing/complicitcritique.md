@@ -3,9 +3,9 @@ layout: default
 title: Complicit Critique
 permalink: /writing/complicitcritique
 ---
+##### ??? words, for A Perpetual Stew, MA Critical Inquiry Lab, 17/07/2022
 
 # Complicit Critique
-Gijs de Boer
 
 I can’t say I did not have a sense of the group I was going to teach. As a coordinator I watched them in their first year, growing their critical teeth. No figure, not even Victor Papanek, was safe. I remember how one day after the class received an assignment from the UN and the Netherlands Food Partnership, there already was an open letter dicing the brief. This was a Critical Inquiry Lab cohort that wasn’t shy of living up to its first name.
 
