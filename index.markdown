@@ -5,17 +5,22 @@
 layout: default
 ---
 
-Critical design practices gave me tools to point out what's 'bad' in the world. But that didn't change much in the world, while giving me a sense of being morally right. With *Complicit Critique* I explore the potential of acknowledging one's complicity as a starting point towards more empathic, constructive and accessible ways of doing critique. 
+{% include mirror.html %}
 
-*What part of myself do I see in what I critique?*
+<!-- # hypocrit -->
+Critical design practices gave me tools to point out what's 'bad' in the world. But that didn't change much in the world, while giving me a sense of being morally right. 
 
-An ongoing research and pedagogical project by [Gijs de Boer](https://supergijs.com/)
+On *hypocrit* I gather lessons from teaching and writing, and explore the potential of acknowledging your complicity as a starting point for more empathic, constructive and accessible critical works.
+
+<!-- *What part of myself do I see in what I critique?* -->
 
 Find below some exercises and excerpts from writings.
 
 <hr/>
 
-# Exercises
+# Tools
+
+
 
 ## research question generator
 
@@ -52,3 +57,4 @@ SQ6: What does this mean for A and C? [implications]
     {% endif %}
     {% endfor %}
 </ul>
+

@@ -1,0 +1,16 @@
+<form name="projectgen" onsubmit="return false;" class="generator" id="projectgen">
+    <p>Generate a one-sentence project proposal</p>
+
+    <label>What kind of thing would you like to make? <input type="text" name="format" placeholder="[a website]"></label><br>
+    <label>What community do you respond to? <input type="text" name="context" placeholder="[critical designers]"></label><br>
+    <label>What do you want to contribute? <input type="text" name="offer" placeholder="[self-reflection tools]"></label><br>
+    <label>What activity do you enjoy most in a project? <input type="text" name="method" placeholder="[making diagrams]"></label><br>
+
+    <button name="project" onclick="generate(this);">Generate</button>
+
+    <p class="result" id="proposal">A <output id="format_" name="format_"></output> that offers <output id="offer_"></output> to <output id="context_"></output>, by <output id="method_"></output></p>
+</form>
+
+<script src="/assets/js/form.js">
+
+  </script>

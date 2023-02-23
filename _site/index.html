@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-    <h1>complicit critique</h1>
+    <h1>hypocrit</h1>
     <nav>
     <ul>
     
@@ -58,17 +58,40 @@
 
     </header>  
     <article class="content">
-        <p>Critical design practices gave me tools to point out what’s ‘bad’ in the world. But that didn’t change much in the world, while giving me a sense of being morally right. With <em>Complicit Critique</em> I explore the potential of acknowledging one’s complicity as a starting point towards more empathic, constructive and accessible ways of doing critique.</p>
+        <form name="projectgen" onsubmit="return false;" class="generator" id="projectgen">
+    <p>
 
-<p><em>What part of myself do I see in what I critique?</em></p>
+    <label>What thing are you critical of? <br />I'm concerned with <input name="topic" placeholder="[critical design]" /></label><br />
+    <label>What bothers you most about it? <br /> How it feels <input name="bother" placeholder="[distancing]" /></label><br />
+    </p>
 
-<p>An ongoing research and pedagogical project by <a href="https://supergijs.com/">Gijs de Boer</a></p>
+    <button name="project" onclick="generate(this);">Mirror</button>
+
+
+    <p class="result" id="mirror">
+        What was a situation where you were <output id="bother_"></output>?<br />
+        Could that help to understand, critique or design <output id="topic_"></output> otherwise?</p>
+</form>
+
+<h1>How can self-critique be a way towards more empathic and accessible critique?<br />
+</h1>
+
+<script src="/assets/js/form.js">
+
+  </script>
+
+<!-- # hypocrit -->
+<p>Critical design practices gave me tools to point out what’s ‘bad’ in the world. But that didn’t change much in the world, while giving me a sense of being morally right.</p>
+
+<p>On <em>hypocrit</em> I gather lessons from teaching and writing, and explore the potential of acknowledging your complicity as a starting point for more empathic, constructive and accessible critical works.</p>
+
+<!-- *What part of myself do I see in what I critique?* -->
 
 <p>Find below some exercises and excerpts from writings.</p>
 
 <hr />
 
-<h1 id="exercises">Exercises</h1>
+<h1 id="tools">Tools</h1>
 
 <h2 id="research-question-generator">research question generator</h2>
 
@@ -114,6 +137,12 @@ G: format</p>
     
 </ul>
 
+
     </article>
+    <footer>
+    <p>Hypocrit is an ongoing research and pedagogical project by <a href="https://www.supergijs.com">Gijs de Boer</a> – last updated February 2023
+    </p>
+</footer>
+
   </body>
 </html>

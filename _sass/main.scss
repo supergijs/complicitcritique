@@ -5,10 +5,28 @@
     
 }
 
+:root {
+    --linkcolor: forestgreen;
+}
+
 body {
-    background: lightgrey;
+    // background: lightgrey;
+    background: linear-gradient(white,black);
+    animation: fade 10s infinite alternate;
     font-family: Plantin, Times;
+	// background-image: url("/assets/images/noise.png");
+	// background-repeat: repeat;
+	// background-position: center;
+    // background-size: 60px;
+	// background-blend-mode: darken;
   }
+
+a {
+    color:inherit;
+}
+a:hover {
+    color: var(--linkcolor);
+}
   
 @font-face {
           font-family: 'Super';
@@ -79,11 +97,17 @@ nav div a{
 
 nav li:hover > div{
     display: block;
-    background-color: lightgrey;
+    // background-color: lightgrey;
 }
 
 .current{
     color:green;
+}
+
+// FORMS
+
+.result{
+    visibility: hidden;
 }
 
 // ARTICLE
@@ -165,6 +189,24 @@ header h1{
     letter-spacing: 0.01em;
     }
 
+// FOOTER
+
+footer {
+    display: block;
+    bottom: 0;
+    padding-top: 40px;
+    padding-right: 10px;
+    color: grey;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+footer a{
+    color:inherit;
+}
+footer a:hover{
+    color: var(--linkcolor);
+}
 
 
 

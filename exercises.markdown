@@ -5,7 +5,18 @@
 layout: default
 ---
 
-# Exercises
+# What tool do you need?
+
+Select what you are looking for:
+{% include toolselect.html %}
+
+
+
+# Tools
+
+{% include projectgen.html %}
+
+{% include rqgen.html %}
 
 ## research question generator
 

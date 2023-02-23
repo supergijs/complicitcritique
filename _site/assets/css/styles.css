@@ -1,6 +1,19 @@
+:root {
+  --linkcolor: forestgreen;
+}
+
 body {
-  background: lightgrey;
+  background: linear-gradient(white, black);
+  animation: fade 10s infinite alternate;
   font-family: Plantin, Times;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: var(--linkcolor);
 }
 
 @font-face {
@@ -66,11 +79,14 @@ nav div a {
 
 nav li:hover > div {
   display: block;
-  background-color: lightgrey;
 }
 
 .current {
   color: green;
+}
+
+.result {
+  visibility: hidden;
 }
 
 article {
@@ -141,6 +157,77 @@ header h1 {
   font-size: 3em;
   line-height: 0.8;
   letter-spacing: 0.01em;
+}
+
+footer {
+  display: block;
+  bottom: 0;
+  padding-top: 40px;
+  padding-right: 10px;
+  color: grey;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: var(--linkcolor);
+}
+
+form {
+  font-size: 1.3em;
+  padding: 50px 0;
+}
+
+form input {
+  display: inline;
+  font-size: inherit;
+  font-family: inherit;
+  border: 0 solid black;
+  border-bottom-width: 2px;
+  background: none;
+  padding: 0;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form input[value=""] {
+  border-bottom-width: 2px;
+}
+
+form input::placeholder {
+  border-bottom-width: 2px;
+}
+
+form button {
+  border: 2px solid black;
+  background: none;
+  font-size: inherit;
+  font-family: Monaco, "Courier New", Courier, monospace;
+  padding: 5px 10px;
+}
+
+form button:hover {
+  background-color: forestgreen;
+}
+
+form button:disabled {
+  border-color: grey;
+}
+
+form button:disabled:hover {
+  background-color: lightgrey;
+  cursor: not-allowed;
+}
+
+form output {
+  text-shadow: 0 3px white;
+  color: navy;
 }
 
 /*# sourceMappingURL=styles.css.map */
